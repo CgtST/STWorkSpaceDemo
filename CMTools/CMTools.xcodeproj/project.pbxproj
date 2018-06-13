@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D747361720D10E4900253AE8 /* CMTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D747361420D10E4900253AE8 /* CMTools.h */; };
+		D747362420D10F3C00253AE8 /* CTDataEncryAndDecry.m in Sources */ = {isa = PBXBuildFile; fileRef = D747362220D10F3C00253AE8 /* CTDataEncryAndDecry.m */; };
+		D747362720D110B800253AE8 /* CTFontTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D747362520D110B800253AE8 /* CTFontTools.m */; };
+		D747362A20D110C000253AE8 /* CTImageTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D747362820D110C000253AE8 /* CTImageTools.m */; };
+		D747362D20D110D300253AE8 /* CTStringTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D747362B20D110D300253AE8 /* CTStringTools.m */; };
+		D747363120D110DB00253AE8 /* CTNumberTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D747363020D110DB00253AE8 /* CTNumberTools.m */; };
+		D747363420D1137000253AE8 /* CTDatatTrans.m in Sources */ = {isa = PBXBuildFile; fileRef = D747363220D1136F00253AE8 /* CTDatatTrans.m */; };
+		D747363E20D11B7600253AE8 /* CTAnimationTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D747363D20D11B7600253AE8 /* CTAnimationTools.m */; };
+		D747363F20D11D9B00253AE8 /* CTAnimationTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D747363C20D11B7600253AE8 /* CTAnimationTools.h */; };
+		D747364020D11D9B00253AE8 /* CTNumberTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D747362F20D110DB00253AE8 /* CTNumberTools.h */; };
+		D747364120D11D9B00253AE8 /* CTImageTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D747362920D110C000253AE8 /* CTImageTools.h */; };
+		D747364220D11D9B00253AE8 /* CTFontTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D747362620D110B800253AE8 /* CTFontTools.h */; };
+		D747364320D11D9B00253AE8 /* CTDatatTrans.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D747363320D1136F00253AE8 /* CTDatatTrans.h */; };
+		D747364420D11D9B00253AE8 /* CTDataEncryAndDecry.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D747362320D10F3C00253AE8 /* CTDataEncryAndDecry.h */; };
+		D747364520D11D9B00253AE8 /* CTStringTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D747362C20D110D300253AE8 /* CTStringTools.h */; };
+		D747364820D1210B00253AE8 /* CTDateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D747364720D1210B00253AE8 /* CTDateTools.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D747360F20D10E4900253AE8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				D747363F20D11D9B00253AE8 /* CTAnimationTools.h in CopyFiles */,
+				D747364020D11D9B00253AE8 /* CTNumberTools.h in CopyFiles */,
+				D747364120D11D9B00253AE8 /* CTImageTools.h in CopyFiles */,
+				D747364220D11D9B00253AE8 /* CTFontTools.h in CopyFiles */,
+				D747364320D11D9B00253AE8 /* CTDatatTrans.h in CopyFiles */,
+				D747364420D11D9B00253AE8 /* CTDataEncryAndDecry.h in CopyFiles */,
+				D747364520D11D9B00253AE8 /* CTStringTools.h in CopyFiles */,
+				D747361720D10E4900253AE8 /* CMTools.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D747361120D10E4900253AE8 /* libCMTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCMTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D747361420D10E4900253AE8 /* CMTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMTools.h; sourceTree = "<group>"; };
+		D747362220D10F3C00253AE8 /* CTDataEncryAndDecry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDataEncryAndDecry.m; sourceTree = "<group>"; };
+		D747362320D10F3C00253AE8 /* CTDataEncryAndDecry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDataEncryAndDecry.h; sourceTree = "<group>"; };
+		D747362520D110B800253AE8 /* CTFontTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFontTools.m; sourceTree = "<group>"; };
+		D747362620D110B800253AE8 /* CTFontTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFontTools.h; sourceTree = "<group>"; };
+		D747362820D110C000253AE8 /* CTImageTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTImageTools.m; sourceTree = "<group>"; };
+		D747362920D110C000253AE8 /* CTImageTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTImageTools.h; sourceTree = "<group>"; };
+		D747362B20D110D300253AE8 /* CTStringTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTStringTools.m; sourceTree = "<group>"; };
+		D747362C20D110D300253AE8 /* CTStringTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTStringTools.h; sourceTree = "<group>"; };
+		D747362F20D110DB00253AE8 /* CTNumberTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTNumberTools.h; sourceTree = "<group>"; };
+		D747363020D110DB00253AE8 /* CTNumberTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTNumberTools.m; sourceTree = "<group>"; };
+		D747363220D1136F00253AE8 /* CTDatatTrans.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDatatTrans.m; sourceTree = "<group>"; };
+		D747363320D1136F00253AE8 /* CTDatatTrans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDatatTrans.h; sourceTree = "<group>"; };
+		D747363C20D11B7600253AE8 /* CTAnimationTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTAnimationTools.h; sourceTree = "<group>"; };
+		D747363D20D11B7600253AE8 /* CTAnimationTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTAnimationTools.m; sourceTree = "<group>"; };
+		D747364620D1210B00253AE8 /* CTDateTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTDateTools.h; sourceTree = "<group>"; };
+		D747364720D1210B00253AE8 /* CTDateTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTDateTools.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D747360E20D10E4900253AE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D747360820D10E4900253AE8 = {
+			isa = PBXGroup;
+			children = (
+				D747363B20D11B2400253AE8 /* AnimationTools */,
+				D747362E20D110DB00253AE8 /* NumberTools */,
+				D747362120D10F0400253AE8 /* ImageTools */,
+				D747362020D10ECD00253AE8 /* FontTools */,
+				D747361F20D10EBD00253AE8 /* DateTools */,
+				D747361E20D10EB500253AE8 /* DataTools */,
+				D747361D20D10E5200253AE8 /* StringTools */,
+				D747361320D10E4900253AE8 /* CMTools */,
+				D747361220D10E4900253AE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D747361220D10E4900253AE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D747361120D10E4900253AE8 /* libCMTools.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D747361320D10E4900253AE8 /* CMTools */ = {
+			isa = PBXGroup;
+			children = (
+				D747361420D10E4900253AE8 /* CMTools.h */,
+			);
+			path = CMTools;
+			sourceTree = "<group>";
+		};
+		D747361D20D10E5200253AE8 /* StringTools */ = {
+			isa = PBXGroup;
+			children = (
+				D747362C20D110D300253AE8 /* CTStringTools.h */,
+				D747362B20D110D300253AE8 /* CTStringTools.m */,
+			);
+			path = StringTools;
+			sourceTree = "<group>";
+		};
+		D747361E20D10EB500253AE8 /* DataTools */ = {
+			isa = PBXGroup;
+			children = (
+				D747363320D1136F00253AE8 /* CTDatatTrans.h */,
+				D747363220D1136F00253AE8 /* CTDatatTrans.m */,
+				D747362320D10F3C00253AE8 /* CTDataEncryAndDecry.h */,
+				D747362220D10F3C00253AE8 /* CTDataEncryAndDecry.m */,
+			);
+			path = DataTools;
+			sourceTree = "<group>";
+		};
+		D747361F20D10EBD00253AE8 /* DateTools */ = {
+			isa = PBXGroup;
+			children = (
+				D747364620D1210B00253AE8 /* CTDateTools.h */,
+				D747364720D1210B00253AE8 /* CTDateTools.m */,
+			);
+			path = DateTools;
+			sourceTree = "<group>";
+		};
+		D747362020D10ECD00253AE8 /* FontTools */ = {
+			isa = PBXGroup;
+			children = (
+				D747362620D110B800253AE8 /* CTFontTools.h */,
+				D747362520D110B800253AE8 /* CTFontTools.m */,
+			);
+			path = FontTools;
+			sourceTree = "<group>";
+		};
+		D747362120D10F0400253AE8 /* ImageTools */ = {
+			isa = PBXGroup;
+			children = (
+				D747362920D110C000253AE8 /* CTImageTools.h */,
+				D747362820D110C000253AE8 /* CTImageTools.m */,
+			);
+			path = ImageTools;
+			sourceTree = "<group>";
+		};
+		D747362E20D110DB00253AE8 /* NumberTools */ = {
+			isa = PBXGroup;
+			children = (
+				D747362F20D110DB00253AE8 /* CTNumberTools.h */,
+				D747363020D110DB00253AE8 /* CTNumberTools.m */,
+			);
+			path = NumberTools;
+			sourceTree = "<group>";
+		};
+		D747363B20D11B2400253AE8 /* AnimationTools */ = {
+			isa = PBXGroup;
+			children = (
+				D747363C20D11B7600253AE8 /* CTAnimationTools.h */,
+				D747363D20D11B7600253AE8 /* CTAnimationTools.m */,
+			);
+			path = AnimationTools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D747361020D10E4900253AE8 /* CMTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D747361A20D10E4900253AE8 /* Build configuration list for PBXNativeTarget "CMTools" */;
+			buildPhases = (
+				D747360D20D10E4900253AE8 /* Sources */,
+				D747360E20D10E4900253AE8 /* Frameworks */,
+				D747360F20D10E4900253AE8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMTools;
+			productName = CMTools;
+			productReference = D747361120D10E4900253AE8 /* libCMTools.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D747360920D10E4900253AE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = bingo;
+				TargetAttributes = {
+					D747361020D10E4900253AE8 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = D747360C20D10E4900253AE8 /* Build configuration list for PBXProject "CMTools" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D747360820D10E4900253AE8;
+			productRefGroup = D747361220D10E4900253AE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D747361020D10E4900253AE8 /* CMTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D747360D20D10E4900253AE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D747362720D110B800253AE8 /* CTFontTools.m in Sources */,
+				D747362A20D110C000253AE8 /* CTImageTools.m in Sources */,
+				D747363120D110DB00253AE8 /* CTNumberTools.m in Sources */,
+				D747363E20D11B7600253AE8 /* CTAnimationTools.m in Sources */,
+				D747363420D1137000253AE8 /* CTDatatTrans.m in Sources */,
+				D747362420D10F3C00253AE8 /* CTDataEncryAndDecry.m in Sources */,
+				D747364820D1210B00253AE8 /* CTDateTools.m in Sources */,
+				D747362D20D110D300253AE8 /* CTStringTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D747361820D10E4900253AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D747361920D10E4900253AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D747361B20D10E4900253AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D747361C20D10E4900253AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D747360C20D10E4900253AE8 /* Build configuration list for PBXProject "CMTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D747361820D10E4900253AE8 /* Debug */,
+				D747361920D10E4900253AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D747361A20D10E4900253AE8 /* Build configuration list for PBXNativeTarget "CMTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D747361B20D10E4900253AE8 /* Debug */,
+				D747361C20D10E4900253AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D747360920D10E4900253AE8 /* Project object */;
+}
