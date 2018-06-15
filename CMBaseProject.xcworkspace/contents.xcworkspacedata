@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:CMCategories/CMCategories.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:CMViewTools/CMViewTools.xcodeproj">
    </FileRef>
    <FileRef
