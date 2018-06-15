@@ -15,6 +15,18 @@
 		D74735E620D0F18C00253AE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D74735E520D0F18C00253AE8 /* main.m */; };
 		D74735F020D0F18C00253AE8 /* STDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D74735EF20D0F18C00253AE8 /* STDemoTests.m */; };
 		D74735FB20D0F18C00253AE8 /* STDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D74735FA20D0F18C00253AE8 /* STDemoUITests.m */; };
+		D758C3AA20D3A97C00C60F76 /* STTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C3A920D3A97C00C60F76 /* STTabBarViewController.m */; };
+		D758C3B020D3AB7C00C60F76 /* RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C3AD20D3AB7C00C60F76 /* RTRootNavigationController.m */; };
+		D758C3B120D3AB7C00C60F76 /* UIViewController+RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C3AE20D3AB7C00C60F76 /* UIViewController+RTRootNavigationController.m */; };
+		D758C3B720D3ACC000C60F76 /* UIColor+helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C3B520D3ACC000C60F76 /* UIColor+helper.m */; };
+		D758C3B820D3ACC000C60F76 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C3B620D3ACC000C60F76 /* UIColor+HexString.m */; };
+		D758C3BC20D3AEA900C60F76 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C3BB20D3AEA900C60F76 /* HomeViewController.m */; };
+		D758C3BF20D3AEC000C60F76 /* QuoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C3BE20D3AEC000C60F76 /* QuoteViewController.m */; };
+		D758C3C220D3AECF00C60F76 /* TradeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C3C120D3AECF00C60F76 /* TradeViewController.m */; };
+		D758C3C520D3AEEC00C60F76 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C3C420D3AEEC00C60F76 /* NewsViewController.m */; };
+		D758C3C820D3B9C800C60F76 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C3C720D3B9C800C60F76 /* OneViewController.m */; };
+		D758C3CB20D3B9D500C60F76 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C3CA20D3B9D500C60F76 /* TwoViewController.m */; };
+		D758C3CE20D3B9E100C60F76 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C3CD20D3B9E100C60F76 /* ThreeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,31 @@
 		D74735F620D0F18C00253AE8 /* STDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74735FA20D0F18C00253AE8 /* STDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STDemoUITests.m; sourceTree = "<group>"; };
 		D74735FC20D0F18C00253AE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D758C3A820D3A97C00C60F76 /* STTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STTabBarViewController.h; sourceTree = "<group>"; };
+		D758C3A920D3A97C00C60F76 /* STTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STTabBarViewController.m; sourceTree = "<group>"; };
+		D758C3AC20D3AB7C00C60F76 /* UIViewController+RTRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RTRootNavigationController.h"; sourceTree = "<group>"; };
+		D758C3AD20D3AB7C00C60F76 /* RTRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTRootNavigationController.m; sourceTree = "<group>"; };
+		D758C3AE20D3AB7C00C60F76 /* UIViewController+RTRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RTRootNavigationController.m"; sourceTree = "<group>"; };
+		D758C3AF20D3AB7C00C60F76 /* RTRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTRootNavigationController.h; sourceTree = "<group>"; };
+		D758C3B320D3ACC000C60F76 /* UIColor+helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+helper.h"; sourceTree = "<group>"; };
+		D758C3B420D3ACC000C60F76 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		D758C3B520D3ACC000C60F76 /* UIColor+helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+helper.m"; sourceTree = "<group>"; };
+		D758C3B620D3ACC000C60F76 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		D758C3BA20D3AEA900C60F76 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		D758C3BB20D3AEA900C60F76 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		D758C3BD20D3AEC000C60F76 /* QuoteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuoteViewController.h; sourceTree = "<group>"; };
+		D758C3BE20D3AEC000C60F76 /* QuoteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuoteViewController.m; sourceTree = "<group>"; };
+		D758C3C020D3AECF00C60F76 /* TradeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TradeViewController.h; sourceTree = "<group>"; };
+		D758C3C120D3AECF00C60F76 /* TradeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TradeViewController.m; sourceTree = "<group>"; };
+		D758C3C320D3AEEC00C60F76 /* NewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		D758C3C420D3AEEC00C60F76 /* NewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		D758C3C620D3B9C800C60F76 /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		D758C3C720D3B9C800C60F76 /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		D758C3C920D3B9D500C60F76 /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		D758C3CA20D3B9D500C60F76 /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		D758C3CC20D3B9E100C60F76 /* ThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		D758C3CD20D3B9E100C60F76 /* ThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		D758C3CF20D3BAB200C60F76 /* STPCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STPCH.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +118,10 @@
 		D74735CA20D0F18A00253AE8 = {
 			isa = PBXGroup;
 			children = (
+				D758C3CF20D3BAB200C60F76 /* STPCH.pch */,
+				D758C3B920D3AD7B00C60F76 /* RootTabBar */,
+				D758C3B220D3ACA400C60F76 /* Categories */,
+				D758C3AB20D3AB5C00C60F76 /* RTRootNavigation */,
 				D74735D520D0F18A00253AE8 /* STDemo */,
 				D74735EE20D0F18C00253AE8 /* STDemoTests */,
 				D74735F920D0F18C00253AE8 /* STDemoUITests */,
@@ -110,6 +151,20 @@
 				D74735E120D0F18C00253AE8 /* LaunchScreen.storyboard */,
 				D74735E420D0F18C00253AE8 /* Info.plist */,
 				D74735E520D0F18C00253AE8 /* main.m */,
+				D758C3BA20D3AEA900C60F76 /* HomeViewController.h */,
+				D758C3BB20D3AEA900C60F76 /* HomeViewController.m */,
+				D758C3BD20D3AEC000C60F76 /* QuoteViewController.h */,
+				D758C3BE20D3AEC000C60F76 /* QuoteViewController.m */,
+				D758C3C020D3AECF00C60F76 /* TradeViewController.h */,
+				D758C3C120D3AECF00C60F76 /* TradeViewController.m */,
+				D758C3C320D3AEEC00C60F76 /* NewsViewController.h */,
+				D758C3C420D3AEEC00C60F76 /* NewsViewController.m */,
+				D758C3C620D3B9C800C60F76 /* OneViewController.h */,
+				D758C3C720D3B9C800C60F76 /* OneViewController.m */,
+				D758C3C920D3B9D500C60F76 /* TwoViewController.h */,
+				D758C3CA20D3B9D500C60F76 /* TwoViewController.m */,
+				D758C3CC20D3B9E100C60F76 /* ThreeViewController.h */,
+				D758C3CD20D3B9E100C60F76 /* ThreeViewController.m */,
 			);
 			path = STDemo;
 			sourceTree = "<group>";
@@ -130,6 +185,37 @@
 				D74735FC20D0F18C00253AE8 /* Info.plist */,
 			);
 			path = STDemoUITests;
+			sourceTree = "<group>";
+		};
+		D758C3AB20D3AB5C00C60F76 /* RTRootNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				D758C3AF20D3AB7C00C60F76 /* RTRootNavigationController.h */,
+				D758C3AD20D3AB7C00C60F76 /* RTRootNavigationController.m */,
+				D758C3AC20D3AB7C00C60F76 /* UIViewController+RTRootNavigationController.h */,
+				D758C3AE20D3AB7C00C60F76 /* UIViewController+RTRootNavigationController.m */,
+			);
+			path = RTRootNavigation;
+			sourceTree = "<group>";
+		};
+		D758C3B220D3ACA400C60F76 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D758C3B320D3ACC000C60F76 /* UIColor+helper.h */,
+				D758C3B520D3ACC000C60F76 /* UIColor+helper.m */,
+				D758C3B420D3ACC000C60F76 /* UIColor+HexString.h */,
+				D758C3B620D3ACC000C60F76 /* UIColor+HexString.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		D758C3B920D3AD7B00C60F76 /* RootTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D758C3A820D3A97C00C60F76 /* STTabBarViewController.h */,
+				D758C3A920D3A97C00C60F76 /* STTabBarViewController.m */,
+			);
+			path = RootTabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +348,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D758C3B120D3AB7C00C60F76 /* UIViewController+RTRootNavigationController.m in Sources */,
 				D74735DB20D0F18A00253AE8 /* ViewController.m in Sources */,
+				D758C3C220D3AECF00C60F76 /* TradeViewController.m in Sources */,
+				D758C3C520D3AEEC00C60F76 /* NewsViewController.m in Sources */,
+				D758C3B820D3ACC000C60F76 /* UIColor+HexString.m in Sources */,
+				D758C3AA20D3A97C00C60F76 /* STTabBarViewController.m in Sources */,
 				D74735E620D0F18C00253AE8 /* main.m in Sources */,
+				D758C3CB20D3B9D500C60F76 /* TwoViewController.m in Sources */,
+				D758C3BF20D3AEC000C60F76 /* QuoteViewController.m in Sources */,
+				D758C3CE20D3B9E100C60F76 /* ThreeViewController.m in Sources */,
+				D758C3BC20D3AEA900C60F76 /* HomeViewController.m in Sources */,
+				D758C3B720D3ACC000C60F76 /* UIColor+helper.m in Sources */,
 				D74735D820D0F18A00253AE8 /* AppDelegate.m in Sources */,
+				D758C3B020D3AB7C00C60F76 /* RTRootNavigationController.m in Sources */,
+				D758C3C820D3B9C800C60F76 /* OneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +532,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RZQQM9M2W;
+				GCC_PREFIX_HEADER = STPCH.pch;
 				INFOPLIST_FILE = STDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +550,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RZQQM9M2W;
+				GCC_PREFIX_HEADER = STPCH.pch;
 				INFOPLIST_FILE = STDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
