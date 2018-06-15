@@ -3,7 +3,7 @@
 //  CommonDataTools
 //
 //  Created by bingo on 16/10/18.
-//  Copyright © 2016年 zscf. All rights reserved.
+//  Copyright © 2016年 CM. All rights reserved.
 //
 
 #import "CTFontTools.h"

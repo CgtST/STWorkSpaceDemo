@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D758C35D20D373B200C60F76 /* CMViewTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C35C20D373B200C60F76 /* CMViewTools.m */; };
+		D758C35E20D373B200C60F76 /* CMViewTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D758C35B20D373B200C60F76 /* CMViewTools.h */; };
+		D758C39420D3A18700C60F76 /* CMActionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C36520D3A18600C60F76 /* CMActionButton.m */; };
+		D758C39520D3A18700C60F76 /* CMMarketButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C36720D3A18600C60F76 /* CMMarketButton.m */; };
+		D758C39720D3A18700C60F76 /* CMTitleSortBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C36A20D3A18600C60F76 /* CMTitleSortBtn.m */; };
+		D758C39820D3A18700C60F76 /* CMOneAlertButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C36E20D3A18600C60F76 /* CMOneAlertButtonView.m */; };
+		D758C39920D3A18700C60F76 /* CMAlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C36F20D3A18600C60F76 /* CMAlertHelper.m */; };
+		D758C39A20D3A18700C60F76 /* CMAlertMsgShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C37320D3A18600C60F76 /* CMAlertMsgShowView.m */; };
+		D758C39B20D3A18700C60F76 /* CM2ButtonAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C37520D3A18600C60F76 /* CM2ButtonAlertView.m */; };
+		D758C39C20D3A18700C60F76 /* CMAlertWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C37720D3A18600C60F76 /* CMAlertWindow.m */; };
+		D758C39D20D3A18700C60F76 /* CMAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C37B20D3A18600C60F76 /* CMAlertViewController.m */; };
+		D758C39E20D3A18700C60F76 /* CMAlertButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C37C20D3A18600C60F76 /* CMAlertButton.m */; };
+		D758C39F20D3A18700C60F76 /* CMViewDataOper.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C37E20D3A18600C60F76 /* CMViewDataOper.m */; };
+		D758C3A020D3A18700C60F76 /* CMRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C38120D3A18600C60F76 /* CMRefreshControl.m */; };
+		D758C3A120D3A18700C60F76 /* CMCustomRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C38320D3A18600C60F76 /* CMCustomRefreshControl.m */; };
+		D758C3A220D3A18700C60F76 /* CMRefreshControlSubClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C38520D3A18600C60F76 /* CMRefreshControlSubClass.m */; };
+		D758C3A320D3A18700C60F76 /* CMScrollTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C38820D3A18700C60F76 /* CMScrollTitleView.m */; };
+		D758C3A420D3A18700C60F76 /* CMColumnScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C38920D3A18700C60F76 /* CMColumnScrollView.m */; };
+		D758C3A520D3A18700C60F76 /* CMUserSelectionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C38E20D3A18700C60F76 /* CMUserSelectionTableViewCell.m */; };
+		D758C3A620D3A18700C60F76 /* CMOriScrollTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C39220D3A18700C60F76 /* CMOriScrollTableView.m */; };
+		D758C3A720D3A18700C60F76 /* CMScrollTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C39320D3A18700C60F76 /* CMScrollTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D758C35620D373B200C60F76 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				D758C35E20D373B200C60F76 /* CMViewTools.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D758C35820D373B200C60F76 /* libCMViewTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCMViewTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D758C35B20D373B200C60F76 /* CMViewTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMViewTools.h; sourceTree = "<group>"; };
+		D758C35C20D373B200C60F76 /* CMViewTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMViewTools.m; sourceTree = "<group>"; };
+		D758C36520D3A18600C60F76 /* CMActionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMActionButton.m; sourceTree = "<group>"; };
+		D758C36620D3A18600C60F76 /* CMTitleSortBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTitleSortBtn.h; sourceTree = "<group>"; };
+		D758C36720D3A18600C60F76 /* CMMarketButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMarketButton.m; sourceTree = "<group>"; };
+		D758C36920D3A18600C60F76 /* CMActionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMActionButton.h; sourceTree = "<group>"; };
+		D758C36A20D3A18600C60F76 /* CMTitleSortBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTitleSortBtn.m; sourceTree = "<group>"; };
+		D758C36C20D3A18600C60F76 /* CMMarketButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMarketButton.h; sourceTree = "<group>"; };
+		D758C36E20D3A18600C60F76 /* CMOneAlertButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMOneAlertButtonView.m; sourceTree = "<group>"; };
+		D758C36F20D3A18600C60F76 /* CMAlertHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAlertHelper.m; sourceTree = "<group>"; };
+		D758C37020D3A18600C60F76 /* CMAlertMsgShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAlertMsgShowView.h; sourceTree = "<group>"; };
+		D758C37120D3A18600C60F76 /* CM2ButtonAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CM2ButtonAlertView.h; sourceTree = "<group>"; };
+		D758C37220D3A18600C60F76 /* CMOneAlertButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMOneAlertButtonView.h; sourceTree = "<group>"; };
+		D758C37320D3A18600C60F76 /* CMAlertMsgShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAlertMsgShowView.m; sourceTree = "<group>"; };
+		D758C37420D3A18600C60F76 /* CMAlertHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAlertHelper.h; sourceTree = "<group>"; };
+		D758C37520D3A18600C60F76 /* CM2ButtonAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CM2ButtonAlertView.m; sourceTree = "<group>"; };
+		D758C37720D3A18600C60F76 /* CMAlertWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAlertWindow.m; sourceTree = "<group>"; };
+		D758C37820D3A18600C60F76 /* CMAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAlertViewController.h; sourceTree = "<group>"; };
+		D758C37920D3A18600C60F76 /* CMAlertButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAlertButton.h; sourceTree = "<group>"; };
+		D758C37A20D3A18600C60F76 /* CMAlertWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAlertWindow.h; sourceTree = "<group>"; };
+		D758C37B20D3A18600C60F76 /* CMAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAlertViewController.m; sourceTree = "<group>"; };
+		D758C37C20D3A18600C60F76 /* CMAlertButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAlertButton.m; sourceTree = "<group>"; };
+		D758C37E20D3A18600C60F76 /* CMViewDataOper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMViewDataOper.m; sourceTree = "<group>"; };
+		D758C37F20D3A18600C60F76 /* CMViewDataOper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMViewDataOper.h; sourceTree = "<group>"; };
+		D758C38120D3A18600C60F76 /* CMRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMRefreshControl.m; sourceTree = "<group>"; };
+		D758C38220D3A18600C60F76 /* CMRefreshControlSubClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMRefreshControlSubClass.h; sourceTree = "<group>"; };
+		D758C38320D3A18600C60F76 /* CMCustomRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMCustomRefreshControl.m; sourceTree = "<group>"; };
+		D758C38420D3A18600C60F76 /* CMRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMRefreshControl.h; sourceTree = "<group>"; };
+		D758C38520D3A18600C60F76 /* CMRefreshControlSubClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMRefreshControlSubClass.m; sourceTree = "<group>"; };
+		D758C38620D3A18600C60F76 /* CMCustomRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMCustomRefreshControl.h; sourceTree = "<group>"; };
+		D758C38820D3A18700C60F76 /* CMScrollTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMScrollTitleView.m; sourceTree = "<group>"; };
+		D758C38920D3A18700C60F76 /* CMColumnScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMColumnScrollView.m; sourceTree = "<group>"; };
+		D758C38A20D3A18700C60F76 /* CMScrollTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMScrollTitleView.h; sourceTree = "<group>"; };
+		D758C38B20D3A18700C60F76 /* CMColumnScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMColumnScrollView.h; sourceTree = "<group>"; };
+		D758C38C20D3A18700C60F76 /* CMTableCellScrollDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTableCellScrollDelegate.h; sourceTree = "<group>"; };
+		D758C38E20D3A18700C60F76 /* CMUserSelectionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMUserSelectionTableViewCell.m; sourceTree = "<group>"; };
+		D758C38F20D3A18700C60F76 /* CMOriScrollTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMOriScrollTableView.h; sourceTree = "<group>"; };
+		D758C39020D3A18700C60F76 /* CMScrollTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMScrollTableViewCell.h; sourceTree = "<group>"; };
+		D758C39120D3A18700C60F76 /* CMUserSelectionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMUserSelectionTableViewCell.h; sourceTree = "<group>"; };
+		D758C39220D3A18700C60F76 /* CMOriScrollTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMOriScrollTableView.m; sourceTree = "<group>"; };
+		D758C39320D3A18700C60F76 /* CMScrollTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMScrollTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D758C35520D373B200C60F76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D758C34F20D373B200C60F76 = {
+			isa = PBXGroup;
+			children = (
+				D758C36D20D3A18600C60F76 /* AlertView */,
+				D758C37620D3A18600C60F76 /* Container */,
+				D758C38020D3A18600C60F76 /* RefreshControl */,
+				D758C38720D3A18700C60F76 /* ScrollView */,
+				D758C38D20D3A18700C60F76 /* TableViewCell */,
+				D758C36420D3A18600C60F76 /* ViewTool */,
+				D758C37D20D3A18600C60F76 /* ViewToolsPrivate */,
+				D758C35A20D373B200C60F76 /* CMViewTools */,
+				D758C35920D373B200C60F76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D758C35920D373B200C60F76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D758C35820D373B200C60F76 /* libCMViewTools.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D758C35A20D373B200C60F76 /* CMViewTools */ = {
+			isa = PBXGroup;
+			children = (
+				D758C35B20D373B200C60F76 /* CMViewTools.h */,
+				D758C35C20D373B200C60F76 /* CMViewTools.m */,
+			);
+			path = CMViewTools;
+			sourceTree = "<group>";
+		};
+		D758C36420D3A18600C60F76 /* ViewTool */ = {
+			isa = PBXGroup;
+			children = (
+				D758C36520D3A18600C60F76 /* CMActionButton.m */,
+				D758C36620D3A18600C60F76 /* CMTitleSortBtn.h */,
+				D758C36720D3A18600C60F76 /* CMMarketButton.m */,
+				D758C36920D3A18600C60F76 /* CMActionButton.h */,
+				D758C36A20D3A18600C60F76 /* CMTitleSortBtn.m */,
+				D758C36C20D3A18600C60F76 /* CMMarketButton.h */,
+			);
+			name = ViewTool;
+			path = CMViewTools/ViewTool;
+			sourceTree = "<group>";
+		};
+		D758C36D20D3A18600C60F76 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				D758C36E20D3A18600C60F76 /* CMOneAlertButtonView.m */,
+				D758C36F20D3A18600C60F76 /* CMAlertHelper.m */,
+				D758C37020D3A18600C60F76 /* CMAlertMsgShowView.h */,
+				D758C37120D3A18600C60F76 /* CM2ButtonAlertView.h */,
+				D758C37220D3A18600C60F76 /* CMOneAlertButtonView.h */,
+				D758C37320D3A18600C60F76 /* CMAlertMsgShowView.m */,
+				D758C37420D3A18600C60F76 /* CMAlertHelper.h */,
+				D758C37520D3A18600C60F76 /* CM2ButtonAlertView.m */,
+			);
+			name = AlertView;
+			path = CMViewTools/AlertView;
+			sourceTree = "<group>";
+		};
+		D758C37620D3A18600C60F76 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				D758C37720D3A18600C60F76 /* CMAlertWindow.m */,
+				D758C37820D3A18600C60F76 /* CMAlertViewController.h */,
+				D758C37920D3A18600C60F76 /* CMAlertButton.h */,
+				D758C37A20D3A18600C60F76 /* CMAlertWindow.h */,
+				D758C37B20D3A18600C60F76 /* CMAlertViewController.m */,
+				D758C37C20D3A18600C60F76 /* CMAlertButton.m */,
+			);
+			name = Container;
+			path = CMViewTools/Container;
+			sourceTree = "<group>";
+		};
+		D758C37D20D3A18600C60F76 /* ViewToolsPrivate */ = {
+			isa = PBXGroup;
+			children = (
+				D758C37E20D3A18600C60F76 /* CMViewDataOper.m */,
+				D758C37F20D3A18600C60F76 /* CMViewDataOper.h */,
+			);
+			name = ViewToolsPrivate;
+			path = CMViewTools/ViewToolsPrivate;
+			sourceTree = "<group>";
+		};
+		D758C38020D3A18600C60F76 /* RefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				D758C38120D3A18600C60F76 /* CMRefreshControl.m */,
+				D758C38220D3A18600C60F76 /* CMRefreshControlSubClass.h */,
+				D758C38320D3A18600C60F76 /* CMCustomRefreshControl.m */,
+				D758C38420D3A18600C60F76 /* CMRefreshControl.h */,
+				D758C38520D3A18600C60F76 /* CMRefreshControlSubClass.m */,
+				D758C38620D3A18600C60F76 /* CMCustomRefreshControl.h */,
+			);
+			name = RefreshControl;
+			path = CMViewTools/RefreshControl;
+			sourceTree = "<group>";
+		};
+		D758C38720D3A18700C60F76 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D758C38820D3A18700C60F76 /* CMScrollTitleView.m */,
+				D758C38920D3A18700C60F76 /* CMColumnScrollView.m */,
+				D758C38A20D3A18700C60F76 /* CMScrollTitleView.h */,
+				D758C38B20D3A18700C60F76 /* CMColumnScrollView.h */,
+				D758C38C20D3A18700C60F76 /* CMTableCellScrollDelegate.h */,
+			);
+			name = ScrollView;
+			path = CMViewTools/ScrollView;
+			sourceTree = "<group>";
+		};
+		D758C38D20D3A18700C60F76 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D758C38E20D3A18700C60F76 /* CMUserSelectionTableViewCell.m */,
+				D758C38F20D3A18700C60F76 /* CMOriScrollTableView.h */,
+				D758C39020D3A18700C60F76 /* CMScrollTableViewCell.h */,
+				D758C39120D3A18700C60F76 /* CMUserSelectionTableViewCell.h */,
+				D758C39220D3A18700C60F76 /* CMOriScrollTableView.m */,
+				D758C39320D3A18700C60F76 /* CMScrollTableViewCell.m */,
+			);
+			name = TableViewCell;
+			path = CMViewTools/TableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D758C35720D373B200C60F76 /* CMViewTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D758C36120D373B200C60F76 /* Build configuration list for PBXNativeTarget "CMViewTools" */;
+			buildPhases = (
+				D758C35420D373B200C60F76 /* Sources */,
+				D758C35520D373B200C60F76 /* Frameworks */,
+				D758C35620D373B200C60F76 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMViewTools;
+			productName = CMViewTools;
+			productReference = D758C35820D373B200C60F76 /* libCMViewTools.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D758C35020D373B200C60F76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = bingo;
+				TargetAttributes = {
+					D758C35720D373B200C60F76 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = D758C35320D373B200C60F76 /* Build configuration list for PBXProject "CMViewTools" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D758C34F20D373B200C60F76;
+			productRefGroup = D758C35920D373B200C60F76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D758C35720D373B200C60F76 /* CMViewTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D758C35420D373B200C60F76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D758C39B20D3A18700C60F76 /* CM2ButtonAlertView.m in Sources */,
+				D758C39D20D3A18700C60F76 /* CMAlertViewController.m in Sources */,
+				D758C35D20D373B200C60F76 /* CMViewTools.m in Sources */,
+				D758C3A520D3A18700C60F76 /* CMUserSelectionTableViewCell.m in Sources */,
+				D758C39520D3A18700C60F76 /* CMMarketButton.m in Sources */,
+				D758C39F20D3A18700C60F76 /* CMViewDataOper.m in Sources */,
+				D758C3A420D3A18700C60F76 /* CMColumnScrollView.m in Sources */,
+				D758C39A20D3A18700C60F76 /* CMAlertMsgShowView.m in Sources */,
+				D758C39720D3A18700C60F76 /* CMTitleSortBtn.m in Sources */,
+				D758C39920D3A18700C60F76 /* CMAlertHelper.m in Sources */,
+				D758C3A320D3A18700C60F76 /* CMScrollTitleView.m in Sources */,
+				D758C3A120D3A18700C60F76 /* CMCustomRefreshControl.m in Sources */,
+				D758C3A020D3A18700C60F76 /* CMRefreshControl.m in Sources */,
+				D758C3A720D3A18700C60F76 /* CMScrollTableViewCell.m in Sources */,
+				D758C39820D3A18700C60F76 /* CMOneAlertButtonView.m in Sources */,
+				D758C39C20D3A18700C60F76 /* CMAlertWindow.m in Sources */,
+				D758C3A220D3A18700C60F76 /* CMRefreshControlSubClass.m in Sources */,
+				D758C3A620D3A18700C60F76 /* CMOriScrollTableView.m in Sources */,
+				D758C39E20D3A18700C60F76 /* CMAlertButton.m in Sources */,
+				D758C39420D3A18700C60F76 /* CMActionButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D758C35F20D373B200C60F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D758C36020D373B200C60F76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D758C36220D373B200C60F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D758C36320D373B200C60F76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D758C35320D373B200C60F76 /* Build configuration list for PBXProject "CMViewTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D758C35F20D373B200C60F76 /* Debug */,
+				D758C36020D373B200C60F76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D758C36120D373B200C60F76 /* Build configuration list for PBXNativeTarget "CMViewTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D758C36220D373B200C60F76 /* Debug */,
+				D758C36320D373B200C60F76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D758C35020D373B200C60F76 /* Project object */;
+}
