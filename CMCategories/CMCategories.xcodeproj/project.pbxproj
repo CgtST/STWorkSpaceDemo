@@ -39,6 +39,8 @@
 		D758C44020D3C58900C60F76 /* NSData+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C43320D3C58900C60F76 /* NSData+Additions.m */; };
 		D758C44120D3C58900C60F76 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C43420D3C58900C60F76 /* NSString+Additions.m */; };
 		D758C44220D3C58900C60F76 /* UIImage+Compress.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C43520D3C58900C60F76 /* UIImage+Compress.m */; };
+		D758C44620D3C67F00C60F76 /* UILabel+YBAttributeTextTapAction.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C44520D3C67F00C60F76 /* UILabel+YBAttributeTextTapAction.m */; };
+		D758C44A20D3C6DE00C60F76 /* UILabel+ChangeLineSpaceAndWordSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = D758C44920D3C6DE00C60F76 /* UILabel+ChangeLineSpaceAndWordSpace.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -118,6 +120,10 @@
 		D758C43820D3C58900C60F76 /* NSTimer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Addition.h"; sourceTree = "<group>"; };
 		D758C43920D3C58900C60F76 /* NSUserDefaults+FLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+FLAdditions.h"; sourceTree = "<group>"; };
 		D758C43A20D3C58900C60F76 /* UIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Additions.h"; sourceTree = "<group>"; };
+		D758C44420D3C67F00C60F76 /* UILabel+YBAttributeTextTapAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+YBAttributeTextTapAction.h"; sourceTree = "<group>"; };
+		D758C44520D3C67F00C60F76 /* UILabel+YBAttributeTextTapAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YBAttributeTextTapAction.m"; sourceTree = "<group>"; };
+		D758C44820D3C6DE00C60F76 /* UILabel+ChangeLineSpaceAndWordSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ChangeLineSpaceAndWordSpace.h"; sourceTree = "<group>"; };
+		D758C44920D3C6DE00C60F76 /* UILabel+ChangeLineSpaceAndWordSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ChangeLineSpaceAndWordSpace.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +140,8 @@
 		D758C3D020D3C26D00C60F76 = {
 			isa = PBXGroup;
 			children = (
+				D758C44720D3C6C700C60F76 /* lineSpace */,
+				D758C44320D3C67F00C60F76 /* LabelAction */,
 				D758C42A20D3C56800C60F76 /* other */,
 				D758C42020D3C30700C60F76 /* TopLab */,
 				D758C41F20D3C2CE00C60F76 /* xib */,
@@ -248,6 +256,24 @@
 			path = other;
 			sourceTree = "<group>";
 		};
+		D758C44320D3C67F00C60F76 /* LabelAction */ = {
+			isa = PBXGroup;
+			children = (
+				D758C44420D3C67F00C60F76 /* UILabel+YBAttributeTextTapAction.h */,
+				D758C44520D3C67F00C60F76 /* UILabel+YBAttributeTextTapAction.m */,
+			);
+			path = LabelAction;
+			sourceTree = "<group>";
+		};
+		D758C44720D3C6C700C60F76 /* lineSpace */ = {
+			isa = PBXGroup;
+			children = (
+				D758C44820D3C6DE00C60F76 /* UILabel+ChangeLineSpaceAndWordSpace.h */,
+				D758C44920D3C6DE00C60F76 /* UILabel+ChangeLineSpaceAndWordSpace.m */,
+			);
+			path = lineSpace;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -311,6 +337,7 @@
 				D758C41C20D3C29500C60F76 /* UIView+ScreenShot.m in Sources */,
 				D758C41A20D3C29500C60F76 /* UIColor+HexString.m in Sources */,
 				D758C3DE20D3C26D00C60F76 /* CMCategories.m in Sources */,
+				D758C44A20D3C6DE00C60F76 /* UILabel+ChangeLineSpaceAndWordSpace.m in Sources */,
 				D758C41D20D3C29500C60F76 /* UIImage+RoundedCorner.m in Sources */,
 				D758C41B20D3C29500C60F76 /* UIImage+Alpha.m in Sources */,
 				D758C43C20D3C58900C60F76 /* NSTimer+Addition.m in Sources */,
@@ -321,6 +348,7 @@
 				D758C41E20D3C29500C60F76 /* UIImage+Resize.m in Sources */,
 				D758C41020D3C29500C60F76 /* UIView+FrameAdditions.m in Sources */,
 				D758C41120D3C29500C60F76 /* UIImage+LaunchImage.m in Sources */,
+				D758C44620D3C67F00C60F76 /* UILabel+YBAttributeTextTapAction.m in Sources */,
 				D758C41420D3C29500C60F76 /* UIColor+helper.m in Sources */,
 				D758C42320D3C32800C60F76 /* IBTopLabel.m in Sources */,
 				D758C43F20D3C58900C60F76 /* NSDate+Additions.m in Sources */,
