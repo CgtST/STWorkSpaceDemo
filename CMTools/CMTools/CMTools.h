@@ -6,7 +6,7 @@
 //  Copyright © 2018年 bingo. All rights reserved.
 //
 
-
+#import "CTAnimationTools.h"
 #import "CTDateTools.h"
 #import "CTAnimationTools.h"
 #import "CTImageTools.h"
